@@ -1,25 +1,47 @@
-<h1>jogo da velha</h1>
-<br>
-<!-- Copyright Nintendo -->
-<i class="nes-charmander"></i>
-<i class="nes-icon coin"></i>
-<i class="nes-squirtle"></i>
-
-<div>
-  <i class="nes-kirby" id="1" onclick="mudarjogada(1)"></i>
-  <i class="nes-kirby" id="2" onclick="mudarjogada(2)"></i>
-  <i class="nes-kirby" id="3" onclick="mudarjogada(3)"></i>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kim</title>
+    
+</head>
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+<style>
+  body {
+      padding: 10px;
+      text-align: center;
+    }
+</style>
+<body>
+  <h1>jogo da velha</h1>
   <br>
-  <i class="nes-kirby" id="4" onclick="mudarjogada(4)"></i>
-  <i class="nes-kirby" id="5" onclick="mudarjogada(5)"></i>
-  <i class="nes-kirby" id="6" onclick="mudarjogada(6)"></i>
-  <br>
-  <i class="nes-kirby" id="7" onclick="mudarjogada(7)"></i>
-  <i class="nes-kirby" id="8" onclick="mudarjogada(8)"></i>
-  <i class="nes-kirby" id="9" onclick="mudarjogada(9)"></i>
-  <br>
-  <button type="button" class="nes-btn is-primary" onclick="recomecar()">jogar de novo</button>
-
-  <br>
-
-  <p id="resultado">resultado</p>
+  <!-- Copyright Nintendo -->
+  <i class="nes-charmander"></i>
+  <i class="nes-icon coin"></i>
+  <i class="nes-squirtle"></i>
+  
+  <div>
+    <i class="nes-kirby" id="1" onclick="mudarjogada(1)"></i>
+    <i class="nes-kirby" id="2" onclick="mudarjogada(2)"></i>
+    <i class="nes-kirby" id="3" onclick="mudarjogada(3)"></i>
+    <br>
+    <i class="nes-kirby" id="4" onclick="mudarjogada(4)"></i>
+    <i class="nes-kirby" id="5" onclick="mudarjogada(5)"></i>
+    <i class="nes-kirby" id="6" onclick="mudarjogada(6)"></i>
+    <br>
+    <i class="nes-kirby" id="7" onclick="mudarjogada(7)"></i>
+    <i class="nes-kirby" id="8" onclick="mudarjogada(8)"></i>
+    <i class="nes-kirby" id="9" onclick="mudarjogada(9)"></i>
+    <br>
+    <button type="button" class="nes-btn is-primary" onclick="recomecar()">jogar de novo</button>
+  
+    <br>
+  
+    <p id="resultado">resultado</p>
+  </div>
+<script src="./script.js"></script>
+</body>
+</html>
